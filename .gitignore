@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Editors / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Model weights and exports (don't commit large binaries)
+*.pt
+*.onnx
+*.engine
+*.tflite
+*.weights
+
+# Ultralytics runtime artifacts
+runs/
+weights/
+
+# Generated outputs
+outputs/
+*.mp4
+*.avi
+*.mov
+!samples/*.mp4
+
+# Streamlit
+.streamlit/secrets.toml
