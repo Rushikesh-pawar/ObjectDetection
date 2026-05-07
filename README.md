@@ -65,7 +65,7 @@ ObjectDetection/
 ## Quick start
 
 ```bash
-git clone https://github.com/<your-username>/ObjectDetection.git
+git clone https://github.com/Rushikesh-pawar/ObjectDetection.git
 cd ObjectDetection
 
 python -m venv .venv && source .venv/bin/activate     # Windows: .venv\Scripts\activate
